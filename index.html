@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Well-structured HTML5 Document</title>
+    <link rel="stylesheet" href="style.css"> <!-- Linking the external CSS file -->
+</head>
+<body>
+
+    <h2>Ordered List</h2>
+    <ol type="i">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+        <li>Item Four</li>
+        <li>Item Five</li>
+    </ol>
+
+    <h2>Image from Pexels</h2>
+    <img class="styled-image" src="https://images.pexels.com/photos/19085454/pexels-photo-19085454/free-photo-of-townhouse-entrance-door-with-potted-plants-in-front.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Pexels Sample">
+
+    <h2>Contacts Table</h2>
+    <table class="contact-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bonface Matoke</td>
+                <td>381, Kisii</td>
+                <td>+254707450997</td>
+                <td>matokebonface4@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Patrick Matoke</td>
+                <td>220, Nairobi</td>
+                <td>+2547123456789</td>
+                <td>patrick@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Mike Johnson</td>
+                <td>789 Meru</td>
+                <td>+254555666777</td>
+                <td>mike@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Mr. Eddy</td>
+                <td>101 River Rd, Nairobi</td>
+                <td>+254444333222</td>
+                <td>eddy@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Miss Susan</td>
+                <td>222, Nairobi</td>
+                <td>+254666777888</td>
+                <td>susan@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Registration Form</h2>
+    <form class="registration-form" action="#" method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter password" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="country">Select Country:</label>
+        <select id="country" name="country" required>
+            <option value="">--Select--</option>
+            <option value="usa">Kenya</option>
+            <option value="uk">South Africa</option>
+            <option value="canada">Uganda</option>
+            <option value="australia">Zambia</option>
+        </select><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+
+</body>
+</html>
